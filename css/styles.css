@@ -1,0 +1,86 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/070/315/small/geometric-low-poly-graphic-repeat-pattern-background-free-vector.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    color:black;/*font color*/
+}
+img{
+    display: block;
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+a{
+    color: rgb(114, 15, 81);
+}
+a:visited{
+    color: black;
+}
+li{
+    font-style: italic;
+}
+li:hover{
+    font-size: 105%;
+    text-decoration: underline;
+    background-color: lightskyblue;
+}
+.doggy{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 100;
+    color: aquamarine;
+    background-color: blue;
+    border: 5px dotted black;
+}
+.doggy:hover{
+    text-align:center
+    color black
+}
+.common{
+    border: 2px solid white;
+    position: absolute;
+}
+.nav{
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgb(255, 255, 255)
+}
+.footer{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display:block;
+    text-align: center;
+}
+.content{
+    left: 0;
+    right: 0;
+    top: 20px;
+    text-align: center;
+}
+.gallery img{
+    display: inline;
+    width: 25%;
+    
+
+}
+iframe{
+    display: block;
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+.tableuplaceholder{
+    display: block;
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
